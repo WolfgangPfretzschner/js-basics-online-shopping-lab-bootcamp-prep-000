@@ -57,5 +57,7 @@ function removeFromCart(item) {
 removeFromCart("water")
 
 function placeOrder(cardNumber) {
-  // write your code here
+  if(cardNumber == null){
+    return 
+  }
 }
